@@ -1,0 +1,5 @@
+{
+	"ImportPath": "github.com/bthesorceror/heroku_demo",
+	"GoVersion": "go1.4.2",
+	"Deps": []
+}
