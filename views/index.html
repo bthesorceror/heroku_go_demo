@@ -9,6 +9,16 @@
     <h1>Heroku demo</h1>
     <div>
       This is a demo for heroku.
+      <dl>
+        {{ range . }}
+          <dt>
+            {{ .Title }}
+          </dt>
+          <dd>
+            {{ .Body }}
+          </dd>
+        {{ end}}
+      </dl>
     </div>
   </body>
 </html>
